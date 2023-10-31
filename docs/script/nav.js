@@ -50,3 +50,10 @@ navbarIcons.forEach(icon => {
     icon.style.margin = '0 10px';
     icon.style.cursor = 'pointer';
 });
+
+// Get the element with the "img-logo" class
+const imgLogo = document.querySelector(".img-logo");
+
+// Set the height and width using the style property
+imgLogo.style.height = "50px";
+imgLogo.style.width = "50px";
